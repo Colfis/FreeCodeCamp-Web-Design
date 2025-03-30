@@ -1,0 +1,32 @@
+body {
+  font-family: sans-sarif Arial;
+  color: white;
+  font-size: 25px;
+  background-color: black;
+}
+
+label, #submit {
+  display: block;
+}
+button, textarea {
+  width: 200px;
+}
+input {
+  height: 20px;
+}
+
+#sites, #checkboxes {
+  display: inline-flex; 
+  gap: 10px; 
+{
+
+  input[type="radio"] {
+  transform: scale(1.5); /* Increase size */
+  vertical-align: middle; /* Align with text */
+  margin-right: 5px; /* Add spacing */
+}
+
+input[type="checkbox"] {
+ transform: scale(1.5);
+ vertical-align: middle; 
+ }
