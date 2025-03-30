@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Movie & TV Preferences Survey</h1>
+    <p id="description">in this survey we will ask you about ur favourite genre streaming service and watching habit</p>
+    <hr>
+    <form id="survey-form">
+      <label id="name-label">Enter your name: <input type="text" id="name" placeholder="Colin" required/>
+      <label id="email-label">Enter your email: <input type="email" id="email" placeholder="example@gmail.com" required/>
+      <label id="number-label">Enter your age: <input type="number" id="number" min="13" max="120" placeholder="25" required/>
+      <hr>
+    <p> Choose your favourite Streaming Site</p>
+
+    <div id="sites" required>
+      <label for="netflix">Netflix<input type="radio" id="netflix" name="site" value="1"/></label>
+      <label for="hulu" >Hulu<input type="radio" id="hulu" name="site" value="2"/></label>
+      <label for="prime" >Prime<input type="radio" id="prime" name="site" value="3"/></label>
+      <label for="disney">Disney+<input type="radio" id="disney" name="site" value="4"/></label>
+    </div>
+
+    <hr>
+
+    <p>Choose your watching habit</p>
+    <div id="checkboxes">
+      <label>Binge Watching <input type="checkbox" value="1"></label>
+      <label>Scheduled Viewing <input type="checkbox" value="2"></label>
+      <label>Social Watching<input type="checkbox" value="3"></label>
+    </div>
+    </form>
+
+    <hr>
+
+    <p>Select your favourite genre</p>
+    <select id="dropdown">
+       <option value="0">select your favourite genre</option>
+      <option value="1">Action</option>
+      <option value="2">Comedy</option>
+      <option value="3">Drama</option>
+      <option value="4">Fantasy</option>
+      <option>Horror</option>
+    </select>
+
+    <hr>
+    
+    <p>Type in ur favourite Show</p>
+    <textarea id="input" placeholder="Your favourite Movie/Show"required></textarea>
+    <hr>
+    <button id="submit">Submit</button>
+
+  </body>
+</html>
