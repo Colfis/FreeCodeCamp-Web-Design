@@ -1,0 +1,48 @@
+* {
+  font-family: sans-serif, Arial;
+  color: #222222;
+  background-color: #FF9933;
+}
+
+img {
+  display:block;
+}
+
+#image {
+  max-width: 100%;
+  height: 251;
+  display:center;
+  margin:auto;
+}
+
+#img-div, #quote, #title, h2 {
+  text-align: center;
+}
+
+#img-caption, #quote {
+  font-weight: bold;
+}
+
+#title {
+  text-decoration: underline;
+}
+
+
+
+hr {
+  border: 3px solid #222222;
+}
+
+ul > li {
+  padding-bottom: 10px;
+}
+
+li:last-child {
+  padding-bottom: 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
